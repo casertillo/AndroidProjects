@@ -1,0 +1,58 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtStep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/steps" />
+
+    <Button
+        android:id="@+id/btnStartMen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startMen" />
+
+    <Button
+        android:id="@+id/btnStartWomen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startWomen" />
+    <Button
+        android:id="@+id/btnConsent"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consent" />
+    
+    <TextView
+        android:id="@+id/txtStatusHeart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtStatusGSR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtStatusBarom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+</LinearLayout>
+

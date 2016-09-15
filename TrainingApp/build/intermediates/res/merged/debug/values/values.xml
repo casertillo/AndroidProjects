@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Emotion response</string>
+    <string name="consent">Heart Rate Consent</string>
+    <string name="start">Start Sensor</string>
+    <string name="startMen">I am a female</string>
+    <string name="startWomen">I am a male</string>
+    <string name="steps">Steps: \n
+        1. Press your gender.\n
+        2. Wait until images starts to show.
+        3. A serie of 14 images and words will be displayed\n
+        4. Look into the images or read the words\n
+        5. Press stop when the button appears\n
+    </string>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

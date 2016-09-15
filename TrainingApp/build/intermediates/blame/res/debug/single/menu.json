@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/casertillo/Microsoft Band SDK and Samples for Android/BandHeartRateApp/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/casertillo/Microsoft Band SDK and Samples for Android/BandHeartRateApp/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/casertillo/Microsoft Band SDK and Samples for Android/TrainingApp/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/casertillo/Microsoft Band SDK and Samples for Android/TrainingApp/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/casertillo/Android Projects Git/TrainingApp/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/casertillo/Android Projects Git/TrainingApp/res/menu/main.xml"
+    }
+]

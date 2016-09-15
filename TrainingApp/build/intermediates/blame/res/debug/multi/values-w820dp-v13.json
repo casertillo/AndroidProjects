@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "/home/casertillo/Microsoft Band SDK and Samples for Android/BandHeartRateApp/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/casertillo/Microsoft Band SDK and Samples for Android/BandHeartRateApp/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 57,
+                        "endOffset": 363
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/casertillo/Microsoft Band SDK and Samples for Android/TrainingApp/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/casertillo/Microsoft Band SDK and Samples for Android/TrainingApp/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 57,
+                        "endOffset": 363
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/casertillo/Android Projects Git/TrainingApp/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/casertillo/Android Projects Git/TrainingApp/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 57,
+                        "endOffset": 363
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/casertillo/Microsoft Band SDK and Samples for Android/TrainingApp/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/casertillo/Microsoft Band SDK and Samples for Android/TrainingApp/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/casertillo/Microsoft Band SDK and Samples for Android/BandHeartRateApp/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/casertillo/Microsoft Band SDK and Samples for Android/BandHeartRateApp/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/casertillo/Android Projects Git/TrainingApp/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/casertillo/Android Projects Git/TrainingApp/res/drawable-mdpi/ic_launcher.png"
+    }
+]
