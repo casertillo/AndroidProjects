@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:minHeight="?android:attr/listPreferredItemHeight"
+android:gravity="center_vertical"
+android:orientation="vertical"
+android:background="?attr/selectableItemBackground" >
+
+<TextView android:id="@android:id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:maxLines="1"
+    android:textSize="16sp"
+    android:textColor="?android:attr/textColorPrimary"
+    android:ellipsize="marquee"
+    android:text="Age Range"
+    android:fadingEdge="horizontal"/>
+
+<TextView
+    android:id="@android:id/summary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:textSize="14sp"
+    android:textColor="?android:attr/textColorSecondary"
+    android:maxLines="10"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:gravity="center_vertical">
+
+    <com.appyvet.rangebar.RangeBar
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rangebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:tickStart="18"
+        custom:tickInterval="1"
+        custom:tickEnd="60"
+        custom:tickHeight="0dp"
+        custom:pinColor="@color/accent"
+        custom:selectorColor="@color/accent"
+        custom:connectingLineColor="@color/accent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+</RelativeLayout>
+
+</LinearLayout>

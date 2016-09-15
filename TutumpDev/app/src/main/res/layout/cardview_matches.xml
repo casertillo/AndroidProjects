@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:id="@+id/cv"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </android.support.v4.view.ViewPager>
+
+        <com.viewpagerindicator.UnderlinePageIndicator
+            android:id="@+id/indicator"
+            android:layout_height="5dp"
+            android:layout_width="fill_parent"
+            app:selectedColor="@color/accent"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/person_name"
+            android:gravity="center"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/person_title"
+            android:gravity="center"
+            android:layout_below="@+id/person_name"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/person_about"
+            android:gravity="center"
+            android:layout_marginBottom="4dp"
+            />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

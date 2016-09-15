@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sample="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="Search options">
+
+        <SwitchPreference
+            android:key="search_men"
+            android:defaultValue="false"
+            android:title="Men"/>
+
+        <SwitchPreference
+            android:key="search_women"
+            android:defaultValue="true"
+            android:title="Women"/>
+
+        <SwitchPreference
+            android:key="search_by_distance"
+            android:title="Search by Distance"
+            android:defaultValue="false"/>
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:defaultValue="5"
+            android:key="search_distance_radio"
+            android:title="Distance radio"
+            sample:msbp_interval="1"
+            sample:msbp_maxValue="100"
+            sample:msbp_measurementUnit="km"
+            sample:msbp_minValue="1"
+            android:disableDependentsState="true" />
+
+
+        <com.tutump.tutumpdev.RangeBarPreference
+            android:key="age_range"
+            android:title="Age Range" />
+
+        <SwitchPreference
+            android:key="search_visibility"
+            android:defaultValue="true"
+            android:title="Visible"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Notifications">
+
+        <SwitchPreference
+            android:key="notification_new_Match"
+            android:title="New Match"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="notifications_new_message"
+            android:title="New Messages"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+    <com.tutump.tutumpdev.logout
+        android:key="logout"
+        android:title="Logout">
+    </com.tutump.tutumpdev.logout>
+</PreferenceScreen>

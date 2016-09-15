@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "485032675166",
+    "firebase_url": "https://tutump-320b6.firebaseio.com",
+    "project_id": "tutump-320b6",
+    "storage_bucket": "tutump-320b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485032675166:android:d90ccd70fe110e51",
+        "android_client_info": {
+          "package_name": "com.tutump.tutumpdev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485032675166-u92iva227th01t4th8oe526jk6g888jv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tutump.tutumpdev",
+            "certificate_hash": "151F25571AE42AC2D0459395C11E18A1EDD1C1C1"
+          }
+        },
+        {
+          "client_id": "485032675166-ak5rl28ss2nrcgshbdbqvvol1je7bvvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrrWCKKgJfrwwtxtJ-VMuG6rD2G-E0ch4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485032675166-ak5rl28ss2nrcgshbdbqvvol1je7bvvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
